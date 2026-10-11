@@ -9,7 +9,7 @@ export default function World() {
       {/* Ground */}
       <mesh rotation={[-Math.PI / 2, 0, 0]}>
         <planeGeometry args={[WORLD_HALF * 2, WORLD_HALF * 2]} />
-        <meshStandardMaterial color="lightgray" />
+        <meshStandardMaterial color="lightgrey" />
       </mesh>
 
       {/* Buildings */}

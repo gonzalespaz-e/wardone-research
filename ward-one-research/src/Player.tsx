@@ -18,7 +18,7 @@ export default function Player({ name }: { name: string }) {
     window.addEventListener("keyup", (e) => { keys.current[e.key] = false; });
   }, []);
 
-  // This runs every frame (about 60 times per second)
+  // This runs every frame (~ 60 times per second)
   useFrame(({ camera }) => {
     const player = playerRef.current;
     if (!player) return;
