@@ -4,7 +4,7 @@ import World from "./World";
 
 export default function App() {
   return (
-    <Canvas shadows camera={{ position: [0, 15, 25], fov: 50 }}>
+    <Canvas camera={{ position: [0, 15, 25] }}>
       <World />
       <OrbitControls />
     </Canvas>
