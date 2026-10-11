@@ -3,12 +3,13 @@
 A simlpe prototype for the **Experiencing Ward One** capstone project, built with React Three Fiber.
 Enter a name, then walk a box character around simple stand-in buildings. Your name then floats above the character.
 
-## Run it
+Run it:
 
-    npm install
-    npm run dev
+1. npm install
 
-Open the localhost link it presents, enter a name, click the page, and move with WASD
+2. npm run dev
+
+3. Open the localhost link it presents, enter a name, click the page, and move with WASD
 
 ## Utilizes: 
 - React + TypeScript + Vite
